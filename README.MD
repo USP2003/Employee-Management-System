@@ -152,6 +152,7 @@ Developed a menu-driven Employee Management System using Java and JDBC with Orac
 Urvi Patil
 
 Engineering Graduate
+
 Interested in Data Analytics, SQL, and Finance
 
 ---
