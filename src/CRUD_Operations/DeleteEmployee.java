@@ -7,8 +7,8 @@ public class DeleteEmployee {
 
             Connection con = DriverManager.getConnection(
                     "jdbc:oracle:thin:@localhost:1521:xe",
-                    "system",
-                    "IIM2026");
+                    "username",
+                    "password");
             PreparedStatement pr=con.prepareStatement("DELETE FROM Attendance WHERE Employee_Id=?");
             pr.setInt(1,101);
             int rows=pr.executeUpdate();
