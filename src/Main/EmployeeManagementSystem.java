@@ -12,8 +12,8 @@ public class EmployeeManagementSystem {
         try {
             con = DriverManager.getConnection(
                     "jdbc:oracle:thin:@localhost:1521:xe",
-                    "system",
-                    "IIM2026"
+                    "username",
+                    "password"
             );
 
             Scanner sc = new Scanner(System.in);
