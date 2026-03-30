@@ -7,8 +7,8 @@ public class AddEmployee {
 
             Connection con = DriverManager.getConnection(
                     "jdbc:oracle:thin:@localhost:1521:xe",
-                    "system",
-                    "IIM2026");
+                    "username",
+                    "password");
             PreparedStatement pr=con.prepareStatement("INSERT INTO EMPLOYEES VALUES (?,?,?,?,?,SYSDATE)");
 
             pr.setInt(1,103);
