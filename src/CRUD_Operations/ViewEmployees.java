@@ -7,8 +7,8 @@ public class ViewEmployees {
 
             Connection con = DriverManager.getConnection(
                     "jdbc:oracle:thin:@localhost:1521:xe",
-                    "system",
-                    "IIM2026");
+                    "username",
+                    "password");
             Statement st=con.createStatement();
             ResultSet rt=st.executeQuery("SELECT * FROM EMPLOYEES");
             System.out.println("---------------------------------");
